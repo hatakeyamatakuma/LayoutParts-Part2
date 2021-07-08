@@ -2,3 +2,45 @@
 
 /* カード内の画像は以下のURLを使用して下さい */
 /* https://picsum.photos/id/1005/200/300 */
+
+.green-box {
+  width: 200px;
+  height: 200px;
+  background: #76ff826b;
+}
+@keyframes fadein{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadein {
+  animation-name: fadein;
+  animation-duration: 4s;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fadeout {
+  animation: fadeout 4s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+.rotation {
+  animation: rotation 4s infinite linear;
+}
