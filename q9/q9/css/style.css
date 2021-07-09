@@ -8,6 +8,12 @@
   height: 200px;
   background: #76ff826b;
 }
+.blue-box {
+  width: 200px;
+  height: 200px;
+  background: #331aefd0;
+  transition: 1s;
+}
 @keyframes fadein{
   0% {
     opacity: 0;
@@ -43,4 +49,13 @@
 }
 .rotation {
   animation: rotation 4s infinite linear;
+}
+.pink:hover {
+  background: #ff27e2c9;
+}
+.spin:hover {
+  transform: rotate(360deg)
+}
+.top:hover {
+  transform: translate(0,-20%)
 }
