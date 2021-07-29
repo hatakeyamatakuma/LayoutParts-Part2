@@ -15,11 +15,11 @@
   display: block;
   width: 0;
   height: 0;
-  left: 25px;
-  bottom: -22px;
-  border-top: 20px solid #815a0a;
-  border-right: 25px solid transparent;
-  border-left: 25px solid transparent;
+  left: 29px;
+  bottom: -25px;
+  border-top: 22px solid #815a0a;
+  border-right: 22px solid transparent;
+  border-left: 22px solid transparent;
 }
 .article:after {
   content: '';
@@ -27,11 +27,11 @@
   display: block;
   width: 0;
   height: 0;
-  left: 25px;
-  bottom: -15px;
-  border-top: 20px solid #fad296;
-  border-right: 25px solid transparent;
-  border-left: 25px solid transparent;
+  left: 29px;
+  bottom: -18px;
+  border-top: 22px solid #fad296;
+  border-right: 22px solid transparent;
+  border-left: 22px solid transparent;
 }
 p {
   font-size: 16px;
