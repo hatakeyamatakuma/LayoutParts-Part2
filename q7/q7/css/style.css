@@ -8,32 +8,24 @@
   border-color: #815a0a;
   border-radius: 30px;
   position: relative;
+  font-size: 16px;
+  line-height: 16px;
 }
-.article:before {
+.article:before,.article:after {
   content: "";
   position: absolute;
   display: block;
   width: 0;
   height: 0;
   left: 29px;
+  border-right: 22px solid transparent;
+  border-left: 22px solid transparent;
+}
+.article:before {
   bottom: -25px;
   border-top: 22px solid #815a0a;
-  border-right: 22px solid transparent;
-  border-left: 22px solid transparent;
 }
 .article:after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
-  left: 29px;
   bottom: -18px;
   border-top: 22px solid #fad296;
-  border-right: 22px solid transparent;
-  border-left: 22px solid transparent;
-}
-p {
-  font-size: 16px;
-  line-height: 16px;
 }
